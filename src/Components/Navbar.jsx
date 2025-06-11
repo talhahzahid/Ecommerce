@@ -67,15 +67,21 @@ const Navbar = () => {
           <div
             className={`${
               visible ? "w-full" : "w-0"
-            } absolute top-0 right-0 bottom-0 transition-all bg-white`}
+            } absolute top-0 right-0 bottom-0 transition-all bg-white overflow-hidden`}
           >
             <div className="flex flex-col text-gray-50">
               <div
                 onClick={() => setVisible(false)}
                 className="flex items-center gap-3 p-4"
               >
-                <img src={back} alt="" className="  w-5" />
+                <img src={back} alt="" className="w-5 cursor-pointer" />
                 <p className="text-black">back</p>
+              </div>
+              <div className="text-black p-4">
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
               </div>
             </div>
           </div>
