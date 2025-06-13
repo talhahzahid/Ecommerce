@@ -32,7 +32,7 @@ export const products = [
     subCategory: "Hoodies",
     pif: false,
     bestseller: false,
-       price: 100,
+    price: 100,
   },
   {
     id: "18h",
@@ -44,7 +44,7 @@ export const products = [
     subCategory: "Jeans",
     pif: true,
     bestseller: true,
-       price: 100,
+    price: 100,
   },
   {
     id: "19i",
@@ -56,7 +56,7 @@ export const products = [
     subCategory: "Sleepwear",
     pif: false,
     bestseller: false,
-       price: 100,
+    price: 100,
   },
   {
     id: "20j",
@@ -68,7 +68,7 @@ export const products = [
     subCategory: "T-Shirts",
     pif: true,
     bestseller: true,
-       price: 100,
+    price: 100,
   },
   {
     id: "21k",
@@ -80,7 +80,7 @@ export const products = [
     subCategory: "Shorts",
     pif: false,
     bestseller: false,
-       price: 100,
+    price: 100,
   },
   {
     id: "22l",
@@ -92,7 +92,7 @@ export const products = [
     subCategory: "Jackets",
     pif: true,
     bestseller: true,
-       price: 100,
+    price: 100,
   },
   {
     id: "23m",
@@ -104,7 +104,7 @@ export const products = [
     subCategory: "Babywear",
     pif: false,
     bestseller: true,
-       price: 100,
+    price: 100,
   },
   {
     id: "24n",
@@ -116,7 +116,7 @@ export const products = [
     subCategory: "Dresses",
     pif: true,
     bestseller: false,
-       price: 100,
+    price: 100,
   },
   {
     id: "25o",
@@ -128,6 +128,6 @@ export const products = [
     subCategory: "Pants",
     pif: false,
     bestseller: false,
-       price: 100,
+    price: 100,
   },
 ];
