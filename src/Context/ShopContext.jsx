@@ -6,6 +6,7 @@ const ShopContextProvider = (props) => {
   const value = {
     products,
     name: "ECOMMERCER",
+    currency: "$",
   };
   return (
     <ShopContext.Provider value={value}>{props.children}</ShopContext.Provider>
