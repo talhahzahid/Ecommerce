@@ -122,7 +122,7 @@ const Collection = () => {
                 <ProductItem
                   key={item.id}
                   id={item.id}
-                  image={item.image}
+                  image={item.image[0]}
                   price={item.price}
                 />
               );

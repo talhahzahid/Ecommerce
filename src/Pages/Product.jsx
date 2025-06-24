@@ -36,6 +36,7 @@ const Product = () => {
                   key={index}
                   src={item}
                   alt=""
+                  className="w-[24%] sm:w-full flex-shrink-0 sm:mb-3 cursor-pointer"
                   onClick={() => setImage(item)}
                 />
               );
