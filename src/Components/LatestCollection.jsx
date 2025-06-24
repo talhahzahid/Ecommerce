@@ -27,7 +27,7 @@ const LatestCollection = () => {
             key={item.id}
             id={item.id}
             name={item.name}
-            image={item.image}
+            image={item.image[0]}
             price={item.price}
           />
         ))}
